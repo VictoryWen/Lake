@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_20190801/FavoriteWidget.dart';
 
 class TitleView extends StatelessWidget {
 
@@ -32,13 +33,7 @@ class TitleView extends StatelessWidget {
                 ],
               )
           ),
-          new Icon(
-            Icons.star,
-            color: Colors.red[500],
-          ),
-          new Text(
-              '41'
-          )
+          new FavoriteWidget()
         ],
       ),
     );
